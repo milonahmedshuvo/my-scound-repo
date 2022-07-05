@@ -4,7 +4,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-section{
+.fixibol-sajano{
     display: flex;
     margin-bottom: 130px;
 }
@@ -51,4 +51,46 @@ color: orange;
 
 .font h1 h3{
     font-size: 20px;
+}
+
+.experi-item {
+    margin-top: 3px;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 14px 28px grey;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-bottom: 47px;
+}
+.experience{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 12px;
+}
+#line-first {
+    border-left: 4px solid red;
+}
+
+#line-second {
+    border-left: 5px solid blue;
+}
+.ex {
+    font-size: 41px;
+    font-weight: 400;
+}
+
+.last h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+    padding-top: 53px;
+}
+
+.last h4 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 200;
+    padding-top: 0px;
 }
